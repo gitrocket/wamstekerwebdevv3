@@ -105,12 +105,18 @@ body {
 }
 
 .center {
-  width: 600px;
+  width: 300px;
   padding: 20px;
 }
 
 .bug {
   color: coral;
+}
+
+@media screen and (min-width: 564px) {
+  .center {
+    width: 600px;
+  }
 }
 
 /* APPLIES TO ALL SECTIONS end */
@@ -129,6 +135,10 @@ body {
 .cards-container {
   padding: 20px;
   text-align: center;
+}
+
+.card {
+  padding: 10px;
 }
 
 @media screen and (min-width: 564px) {
